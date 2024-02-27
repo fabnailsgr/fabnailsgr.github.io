@@ -7,7 +7,8 @@
 <footer class="main-footer footer-three bg-black text-white pt-85">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-sm-6">
+			<!--
+				<div class="col-lg-3 col-sm-6">
 				<div class="footer-widget menu-widget">
 					<h4 class="footer-title">About</h4>
 					<ul>
@@ -17,6 +18,8 @@
 					</ul>
 				</div>
 			</div>
+		-->
+		<!--
 			<div class="col-lg-3 col-sm-6">
 				<div class="footer-widget menu-widget">
 					<h4 class="footer-title">Services</h4>
@@ -27,7 +30,8 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+		-->
+			<div class="col-lg-3 col-sm-6 mx-auto order-lg-2"> 
 				<div class="footer-widget contact-widget">
 					<h4 class="footer-title">Contact</h4>
 					<ul>
@@ -35,14 +39,15 @@
 							<i class="fas fa-map-marker-alt"></i>
 							<div class="info-content">
 								<h5>Location</h5>
-								<p>{{ contact.location }}</p>
+								<a href="https://maps.app.goo.gl/KBZ6xQLmg74pVfvNA">3862 52nd St SE, Grand Rapids, MI 49512</a>
 							</div>
 						</li>
 						<li>
 							<i class="fas fa-phone-alt"></i>
 							<div class="info-content">
-								<h5>Hotline</h5>
-								<p>{{ contact.phone }}</p>
+								<h5>Telephone</h5>
+								<a href="tel:6165549600">+1 (616) 554-9600</a>
+
 							</div>
 						</li>
 						<li>
@@ -55,9 +60,14 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6">
+
+
+
+
+
+			<div class="col-lg-3 col-sm-6 mx-auto order-lg-1"> <!---->
 				<div class="footer-widget newsletter-widget">
-					<h4 class="footer-title">Newsletter</h4>
+					<h4 class="footer-title">Newsletter Promotions</h4>
 					<form action="#" method="post">
 						<input
 							type="email"
@@ -71,8 +81,11 @@
 							></i>
 						</button>
 					</form>
+
+
+					
 					<div class="social-style-one pt-40">
-						<a href="#"
+						<a href="https://facebook.com/fabnailsgr"
 							><i class="fab fa-facebook-f"></i
 						></a>
 						<a href="#"
@@ -88,6 +101,19 @@
 				</div>
 			</div>
 		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 		<div class="copyright-area pt-25 pb-15">
 			<ul class="footer-menu py-5">
 				{% for item in footer_menu_bottom %}
